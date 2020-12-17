@@ -16,6 +16,7 @@ authEnabled: True
 tokenAuthEnabled: False
 
 appInsightsEnabled: True
+
 sslEnabled: True
 dnsNameLabel: clemenstest
 
