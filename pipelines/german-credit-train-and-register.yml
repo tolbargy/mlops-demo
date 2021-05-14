@@ -38,7 +38,7 @@ steps:
         --run-configuration-name config/train-amlcompute \
         --target $(ml_compute_name) \
         --experiment-name $(ml_experiment_name) \
-        --output-metadata-file $(Build.ArtifactStagingDirectory)/run.json
+        --output-metadata-file $(Build.ArtifactStagingDirectory)/run.json \
         --workspace-name $(ml_workspace_name)
 
   - task: AzureCLI@2
