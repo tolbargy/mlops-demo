@@ -24,5 +24,3 @@ data:
     mechanism: download
     pathOnCompute: /data
     overwrite: true
-mpi:
-    processCountPerNode: 1
