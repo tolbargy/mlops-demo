@@ -7,6 +7,15 @@ pool:
   vmImage: 'ubuntu-20.04'
 
 steps:
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your commands here
+        
+        echo 'Hello world'
+        echo $(Build.ArtifactStagingDirectory)
+
   - task: AzureCLI@2
     displayName: 'Install AML CLI'
     inputs:
