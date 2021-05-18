@@ -2,7 +2,7 @@ variables:
 
   # Valores de recursos de Azure por crear o modificar el nombre si es que ya existen
   ml_workspace_connection: 'aml-workspace-base-connection'
-  ml_aks_cluster: 'aks-base'
+  ml_aks_cluster: 'aks-base-cluster'
   ml_workspace_name: 'ml-workspace-base'
   ml_workspace_rg: 'mlops-practica'
   ml_compute_name: 'cpu-cluster'
